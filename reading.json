@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Hervis get data to printout",
+  "version": "1.0",
+  "content_scripts": [{"matches": ["<all_urls>"],
+  "js": ["HervGetData.js"]
+  }],
+  "browser_action": {
+  //"default_icon": ""
+  },
+  "description" : "This extension help to get data for print out A6 review"
+}
+
+
+
+
+
+
+
